@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wonderin-platform-dev-200500-authRole",
+      "UnauthRoleArn": "arn:aws:iam::386630786455:role/amplify-wonderin-platform-dev-200500-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::386630786455:role/amplify-wonderin-platform-dev-200500-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wonderin-platform-dev-200500-deployment",
+      "UnauthRoleName": "amplify-wonderin-platform-dev-200500-unauthRole",
+      "StackName": "amplify-wonderin-platform-dev-200500",
+      "StackId": "arn:aws:cloudformation:us-east-1:386630786455:stack/amplify-wonderin-platform-dev-200500/85b896c0-6dc3-11ec-aa42-0e8d198ac6c5",
+      "AmplifyAppId": "d3jt5dwa2w1kax"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wonderin-platform-test-104416-authRole",
+      "UnauthRoleArn": "arn:aws:iam::386630786455:role/amplify-wonderin-platform-test-104416-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::386630786455:role/amplify-wonderin-platform-test-104416-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wonderin-platform-test-104416-deployment",
+      "UnauthRoleName": "amplify-wonderin-platform-test-104416-unauthRole",
+      "StackName": "amplify-wonderin-platform-test-104416",
+      "StackId": "arn:aws:cloudformation:us-east-1:386630786455:stack/amplify-wonderin-platform-test-104416/6058c1e0-6e3e-11ec-bdd7-0ae735d04667",
+      "AmplifyAppId": "d3jt5dwa2w1kax"
+    }
+  }
+}

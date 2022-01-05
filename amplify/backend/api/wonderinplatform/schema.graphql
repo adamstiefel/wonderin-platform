@@ -1,0 +1,20 @@
+type Answer @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Title: String
+  questionID: ID @index(name: "byQuestion")
+}
+
+type Question @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Title: String
+  categoryID: ID @index(name: "byCategory")
+  Answers: [Answer] @hasMany(indexName: "byQuestion", fields: ["id"])
+}
+
+type Category @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Title: String
+  Description: String
+  Questions: [Question] @hasMany(indexName: "byCategory", fields: ["id"])
+}
+ 
